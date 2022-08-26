@@ -43,32 +43,23 @@ The App was designed to collect:
 * Location Sensor Data from GPS
 * Health Status Data from user reported questionnaire
 
-**Available for Android.**
-
 <p align="center">
-  <img src = "http://i.imgur.com/HowF6aM.png" width=350>
+  <img src = "images/banner2.png" width=650>
 </p>
 
 ## Features
 
 A few of the things you can do with GitPoint:
 
-* View user activity feed
-* Communicate on your issue and pull request conversations
-* Close or lock issues
-* Apply labels and assignees
-* Review and merge pull requests
-* Create new issues
-* Star, watch and fork repositories
-* Control your unread and participating notifications
-* Easily search for any user or repository
+* Data Vizualization: Feedback on activity history
+* Data Recording: Robust background services to record motion, location and sound
+* Health Status Questionnaire
+* Cloud Storage of Data
+
 
 <p align="center">
-  <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
+  <img src = "images/screens.png" width=700>
 </p>
 
-<p align="center">
-  <img src = "http://i.imgur.com/0iorG20.png" width=700>
-</p>
 
 
