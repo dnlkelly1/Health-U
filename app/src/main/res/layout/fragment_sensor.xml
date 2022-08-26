@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/sensoroffwarning"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/warningMessage"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/sensorDataLayout"
+            android:visibility="gone"
+            >
+
+
+
+            <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fefdfb"
+            android:elevation="10dp">
+        </RelativeLayout>
+
+
+
+        <!--<com.github.mikephil.charting.charts.PieChart-->
+            <!--android:id="@+id/pieChart1"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="250dp"-->
+            <!--/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/layout2"
+            android:background="@color/colorPrimaryDark"
+            android:layout_margin="5dp"
+            android:elevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/gpsDistanceHead"
+                    android:layout_weight="0.5"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textSize="16sp"
+
+                    android:text="@string/locationAct"
+                    android:textColor="#B3FFFFFF">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/soundAvgHead"
+                    android:layout_weight="0.5"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textSize="16sp"
+                    android:textColor="#B3FFFFFF"
+                    android:text="@string/soundAct"
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/gpsDistance"
+                    android:layout_weight="0.5"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textSize="24sp"
+                    android:text="-"
+                    android:textColor="@color/textColorPrimary"
+                    android:background="@color/colorPrimary"
+                    android:layout_margin="5dp"
+                    android:elevation="20dp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/soundAvg"
+                    android:layout_weight="0.5"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/textColorPrimary"
+                    android:text="-"
+                    android:background="@color/colorPrimary"
+                    android:layout_margin="5dp"
+                    android:elevation="20dp"
+                    >
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:id="@+id/switchLayout"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:elevation="5dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!-->-->
+
+        <!--<Switch-->
+            <!--android:id="@+id/switch1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/sensenabled"-->
+            <!--android:textColor="@color/textColorPrimary"-->
+            <!--android:enabled_left="true"-->
+            <!--android:checked="true"-->
+            <!--android:textSize="20sp"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:layout_marginRight="25dp"-->
+            <!--android:layout_marginLeft="25dp"-->
+
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+</RelativeLayout>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--tools:context="info.androidhive.materialtabs.healthu.ui.SensorFragment">-->
+
+        <!--<com.github.mikephil.charting.charts.PieChart-->
+            <!--android:id="@+id/pieChart1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+
+        <!--<Switch-->
+            <!--android:id="@+id/switch1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Sensing Enabled"-->
+            <!--android:enabled_left="true"-->
+            <!--android:checked="true"-->
+            <!--android:textSize="20dp" />-->
+
+
+    <!--</RelativeLayout>-->
+<!--</ScrollView>-->

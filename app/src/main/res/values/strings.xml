@@ -1,0 +1,269 @@
+<resources>
+    <string name="app_name">Health U</string>
+    <string name="app_id">1084092924954714</string>
+    <string name="accept">Accept</string>
+    <string name="background_notification">Participating in Health-U Study</string>
+    <string name="background_stopped">Sensor Service Stopped!</string>
+    <string name="background_notification_mes">Remember to take the questionnaire.</string>
+    <string name="not_notacceptedyet">Click here to begin sensing</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_icon_text_tabs">Health U</string>
+    <string name="questionnaireReminder">Touch to take the questionnaire now</string>
+    <string name="title_activity_questionnaire">Health U - Questionnaire</string>
+
+    <string name="rawDataSaveFolder">//Android//data//QOLMeasurement//files//</string>
+
+    <string name="metersToday">Km\'s Today</string>
+    <string name="locationAct">Location Activity:</string>
+    <string name="soundAct">Sound Activity:</string>
+    <string name="mostRecent">Most Recent</string>
+    <string name="todayAvg">Today Average</string>
+    <string name="close">Close</string>
+    <string name="past">Past</string>
+    <string name="present">Present</string>
+    <string name="future">Future</string>
+    <string name="noconnection">No Internet Connection Found</string>
+    <string name="noconnection_mes">Please connect to the internet (WiFi or Mobile Data) in order to take the questionnaire</string>
+
+    <string name="emptyTextString">Information relating to your behaviour will appear here after using the App for 1 day.</string>
+    <string name="sensenabled"></string>
+    <string name="stationary">Stationary</string>
+    <string name="light">Light</string>
+    <string name="moderate">Moderate</string>
+    <string name="intense">Intense</string>
+    <string name="day">Day</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="actSince">Activity Since </string>
+    <string name="today">Today</string>
+    <string name="actIntensity">Activity Intensity</string>
+
+    <string name="warningMessage">Sensing is not enabled!\nPlease switch sensing on (using the switch at the top right) in order to see your activity levels.</string>
+
+    <string name="movement">Movement</string>
+    <string name="socialSound">Social Sound</string>
+    <string name="travelReg">Travel Regularity</string>
+
+    <string name="showDays">Show Daily Data</string>
+    <string name="showWeeks">Show Weekly Data</string>
+
+    <string name="takeQues">Take Questionnaire</string>
+
+    <string name="quesHeading">Health Status Questionnaire:</string>
+
+    <string name="qA">What is your age?</string>
+    <string name="aA0">18-21</string>
+    <string name="aA1">21-25</string>
+    <string name="aA2">25-30</string>
+    <string name="aA3">30-35</string>
+    <string name="aA4">35-40</string>
+    <string name="aA5">40-50</string>
+    <string name="aA6">50-60</string>
+    <string name="aA7">60+</string>
+
+
+    <string name="qB">What is your gender?</string>
+    <string name="aB1">Female</string>
+    <string name="aB2">Male</string>
+
+
+    <string name="q1">In general, would you say your health is:</string>
+    <string name="a1_1">Excellent</string>
+    <string name="a1_2">Very Good</string>
+    <string name="a1_3">Good</string>
+    <string name="a1_4">Fair</string>
+    <string name="a1_5">Poor</string>
+
+    <string name="q2">COMPARED TO ONE YEAR AGO, how would you rate your health in general now?</string>
+    <string name="a2_1">Much better now than one year ago</string>
+    <string name="a2_2">Somewhat better than one year ago</string>
+    <string name="a2_3">About the same as one year ago</string>
+    <string name="a2_4">Somewhat worse now than one year ago</string>
+    <string name="a2_5">Much worse now than one year ago</string>
+
+    <string name="q3">The following questions are about activities you might do during a typical day. Does YOUR HEALTH NOW LIMIT YOU in these activities? If so how much?</string>
+    <string name="limitedcodes1">1 = Yes limited a lot</string>
+    <string name="limitedcodes2">2 = Yes limited a little</string>
+    <string name="limitedcodes3">3 = No, not limited at all</string>
+
+    <string name="q3a">Vigerous activities, such\nas running, lifting heavy\nobjects, participating\n in strenuous sports</string>
+    <string name="q3b">Moderate activities,\nsuch as moving a table,\npushing a vacuum\ncleaner, bowling, or\nplaying golf</string>
+    <string name="q3c">Lifting or carrying groceries</string>
+    <string name="q3d">Climbing SEVERAL flights\nof stairs</string>
+    <string name="q3e">Climbing ONE flight\n of stairs</string>
+    <string name="q3f">Bending, kneeling\nor stooping</string>
+    <string name="q3g">Walking MORE THAN\nA MILE</string>
+    <string name="q3h">Walking SEVERAL\nHUNDRED YARDS</string>
+    <string name="q3i">Walking ONE HUNDRED\nYARDS</string>
+    <string name="q3j">Bathing or dressing yourself</string>
+
+
+    <string name="q4">During the past 4 weeks, how much of the time have you had any of the following problems with your work or other regular daily activities as a result of your physical health?</string>
+    <string name="timecodes1">1 = All of the time</string>
+    <string name="timecodes2">2 = Most of the time</string>
+    <string name="timecodes3">3 = Some of the time</string>
+    <string name="timecodes4">4 = A little of the time</string>
+    <string name="timecodes5">5 = None of the time</string>
+    <string name="q4a">Cut down on the\namount of time you\nspent on work or\nother ativities</string>
+    <string name="q4b">Accomplished less\nthan you would like</string>
+    <string name="q4c">Were limited in\nthe kind of work\nor other activities</string>
+    <string name="q4d">Had difficulty performing\nthe work or other\nactivities (e.g. it\ntook extra effort)</string>
+
+
+    <string name="q5">During the past 4 weeks, how much of the time have you had any of the following problems with your work or other regular daily activities as a result of any emotional problems (such as feeling depressed on anxious)?</string>
+    <string name="q5a">Cut down on the\namount of time you\nspent on work or\nother ativities</string>
+    <string name="q5b">Accomplished less\nthan you would like</string>
+    <string name="q5c">Did work or other\nactivities less\ncarefully than usual</string>
+
+
+    <string name="q6">During the past 4 weeks, to what extent has your physical health or emotional problems interfered with your normal social activities with family, friends, neighbours or groups?</string>
+    <string name="q6a">Not at all</string>
+    <string name="q6b">Slightly</string>
+    <string name="q6c">Moderatly</string>
+    <string name="q6d">Quite a bit</string>
+    <string name="q6e">Extermely</string>
+
+    <string name="q7">How much bodily pain have you had during the past 4 weeks?</string>
+    <string name="q7a">None</string>
+    <string name="q7b">Very mild</string>
+    <string name="q7c">Mild</string>
+    <string name="q7d">Moderate</string>
+    <string name="q7e">Severe</string>
+    <string name="q7f">Very Severe</string>
+
+    <string name="q8">During the past 4 weeks, how much did pain interfere with your normal work (including both work outside the home and housework)?</string>
+    <string name="q8a">Not at all</string>
+    <string name="q8b">A little bit</string>
+    <string name="q8c">Moderatly</string>
+    <string name="q8d">Quite a bit</string>
+    <string name="q8e">Extremely</string>
+
+    <string name="q9">These questions are about how you feel and how things have been with you during the past 4 weeks. For each question, please give the one answer that comes closest to the way you have been feeling. How much of the time during the past 4 weeks...</string>
+    <string name="q9a">Did you feel\nfull of life</string>
+    <string name="q9b">Have you been\nvery nervous?</string>
+    <string name="q9c">Have you felt\nso down in the dumps\nthat nothing could\ncheer you up</string>
+    <string name="q9d">Have you felt\ncalm and peaceful</string>
+    <string name="q9e">Did you have\na lot of energy?</string>
+    <string name="q9f">Have you felt\ndownhearted and\ndepressed?</string>
+    <string name="q9g">Did you feel\nworn out?</string>
+    <string name="q9h">Have you been\nhappy?</string>
+    <string name="q9i">Did you feel\ntired?</string>
+
+
+    <string name="q10">During the past 4 weeks, how much of the time has your physical health or emotional problems interfered with your social activities (like visiting friends, relatives etc)?</string>
+    <string name="q10a">All of the time</string>
+    <string name="q10b">Most of the time</string>
+    <string name="q10c">Some of the time</string>
+    <string name="q10d">A litle bit of the time</string>
+    <string name="q10e">None of the time</string>
+
+
+    <string name="q11">How TRUE or FALSE is each of the following statements for you?</string>
+    <string name="truefalsecodes1">1 = Definitely true</string>
+    <string name="truefalsecodes2">2 = Mostly true</string>
+    <string name="truefalsecodes3">3 = Don\'t know</string>
+    <string name="truefalsecodes4">4 = Mostly false</string>
+    <string name="truefalsecodes5">5 = Definitely false</string>
+    <string name="q11a">I seem to get\nsick a little easier\nthat other people</string>
+    <string name="q11b">I am as healthy\nas anybody I know</string>
+    <string name="q11c">I expect my health\nto get worse</string>
+    <string name="q11d">My health is\nexcellent</string>
+
+    <string name="code">Code</string>
+    <string name="submit">Submit</string>
+
+    <string name="category1">Physical Functioning</string>
+    <string name="category2">Role Limitations (Physical)</string>
+    <string name="category3">Role Limitations (Emotional)</string>
+    <string name="category4">Energy Fatigue</string>
+    <string name="category5">Emotional well-being</string>
+    <string name="category6">Social Functioning</string>
+    <string name="category7">Pain</string>
+    <string name="category8">General Health</string>
+
+    <string name="notcomplete">Not all questions were completed!</string>
+    <string name="notcomplete_mes">Are you sure you want to submit an incomplete questionnaire. We will not be able to give you a correct score for your general health</string>
+    <string name="recheck">Recheck Questions</string>
+    <string name="pleasecheck_singular">Please Check Question</string>
+    <string name="pleasecheck_plural">Please Check Questions</string>
+    <string name="uploading">Saving Questionnaire Results. Please wait...</string>
+    <string name="qfinished">Questionnaire Finished</string>
+    <string name="done">Done</string>
+    <string name="qfinished_notenough">You haven\'t answered enough questions for us to give you feedback on your health.\nYou should try taking the questionnaire again, answering more questions.</string>
+
+
+    <string name="questionairreInfo">*All information you provide here is 100% anonymous and confidential. Once you click submit, the information will be anonymously sent to our database, and no information will remain on your phone. Additionally, once the information arrives at our database, it is not possible to tell who sent this information.</string>
+
+    <string name="informedconsent">Health Status measurement using Smartphone sensing.
+
+
+\n\nYou are being invited to take part in a research study. Before you decide whether or not to take part, it is important that you understand what the research is for and what you will be asked to do. Please read the following information and do not hesitate to contact the principal investigator with any questions about anything that might not be clear to you. Make sure that you are happy before you decide what to do. Thank you for taking the time to consider this invitation.
+
+\n\nWhat is this research about?
+\nThe overall goal of our work is to find a way to automatically calculate a person’s Health Status using a smartphone. Health Status measurements are hugely important and doctors use them to help them make decisions when treating patients with chronic diseases. Currently, Health Status can only be measured using a questionnaire. However, studies have shown that this method is flawed. We think we can find a better and more accurate way of measuring Health Status. But, we need your help to do this. We want to use sensors on your phone to assess your movement and the sounds you encounter to evaluate your daily behaviour. We would also like you to take a short health status questionnaire. Using this data, we think we can discover a link between smartphone sensor data and your health status.
+By participating in this study, you could be influencing how patients with chronic diseases are treated in the future.
+
+\n\nWhy are you doing this research?
+\nIn the UK, 70% of all healthcare costs are chronic disease related. An example of a chronic disease is COPD. COPD is a chronic respiratory disease which can lead to considerable decline in patient function and increased health care costs. COPD is the 4th leading cause of death in the U.K and the U.S., and the economic burden of COPD in the U.S. in 2007 was $42.6 billion in health care costs and lost productivity. Studies have shown that there is a need for improved methods of accessing a patient’s general Health Status. An easy to use system which provides accurate information on patient behavior and Health Status would have a huge impact on the clinical treatment of patients with chronic COPD. It would allow clinicians to accurately access and tailor prescribed therapies based on detected daily life patterns of patients. We are carrying out this work on healthy adults first in order to understand how mobile phone sensors can be used to measure Health Status. This could then lead to a system which could give doctors more accurate information in order to correctly treat their patients.
+
+\n\nWhy Have I been chosen?
+\nThis study is open to any healthy adult that has an Android Smartphone and access to the Google Play Store. You have chosen to install our App, indicating you are interested in our study.
+
+\n\nDo I have to take part?
+\nIt is up to you to decide whether or not to take part. You will be asked to if you want to accept via a consent form. If you choose to accept, you can change your mind at any time and withdraw from the study without giving a reason. If you chose not to accept, the App will remain on your phone, but no data will be collected.
+
+\n\nHow data will be used?
+\nThe data we obtain from your smartphone will be analyzed together with results from other study participants. A report on this data will be written up and may be forwarded for publication in a scientific journal. We will record the following data from various sensors on the phone:
+\n1)	Motion Data from the accelerometer and gyroscope.
+\n2)	Location information using GPS. Please note, we will NEVER record your actual location. We respect your privacy and will only using location information to measure average distance traveled and uniqueness of locations.
+\n3)	Sound information using Microphone. Microphone recordings will made roughly every 5 minutes for a duration of 2 seconds, in order to measure sound frequency and decibel levels. It is very important to note that no actual recording of sound is carried out. We will only use the microphone to make overall sound measurements such as decibel level. Sound measurements will be automatically calculated by the phone, and raw sounds will be immediately deleted. No human will ever have access to any sounds as they will only exist for a maximum of 2 seconds on the phone memory. We want to analyse the microphone data to discover if there is a correlation between the general types of sounds a person experiences and the level of social interaction a person experiences.
+\n4)	Health Status via a questionnaire. We would like you to take the Health Status Questionnaire at least once during the study. When you finish the questionnaire, results will be anonymously sent to our server. It is important to note that data is on a secure server and will only be accessed by University Staff. Additionally, there is no way anyone can identify who sent the questionnaire results as it is completely anonymous.
+
+\n\nWhat will happen if I decide to take part in this research study?
+\nIf you accept, the App will record motion, sound and location data in the background of your phone. You can turn this off at any time using the “Sensing Enabled” option in the App.
+We would like you to use the App for at least 2 weeks and go about your routine as you would normally do. We would also like you to charge your phone overnight to ensure the App can record data for the next day. At the end of each day, the app will send summary information to our server. This data is completely anonymous and we have no way of knowing who sent the information.
+
+\n\nWill my taking part in this study be kept confidential?
+\nWe will never ask for your name, email, phone number or any other personal information. This ensures complete privacy for you.
+It should be noted, however, that the Freedom of Information legislation will allow access to certain non-personal or generalized data.
+
+\n\nWhat are the benefits of taking part in this research study?
+\nThe App will give you feedback on your daily routines. You can use the “History” screen to see the overall movement, round and location activity for each day the sensor was enabled.
+Also, we think that this work is important and could eventually be used to directly help patients with chronic diseases. By taking part in this study, you could be influencing the way patients are treated in the future.
+
+\n\nWhat are the risks of taking part in this research study?
+\nThere are no risks associated with participating in this study. You will not be asked to do anything different than you normally would.
+
+\nCan I change my mind at any stage and withdraw from the study?
+\nYour participation in this research is voluntary. You are free to withdraw from this study at any stage and for any reason that you see fit.
+
+\n\nHow will I find out what happens with this project?
+\nThe results we obtain from your tests will be analyzed together with those of other participants. A report on the study will also be written and may be submitted for publication in a scientific journal.
+
+\n\nWho has reviewed this study?
+\nUlster University Research Ethics Committee has reviewed this project and deemed it ethical. You can contact Ulster University Research Governance for further information if necessary.
+
+\n\nWho is conducting this research?
+\nDr Daniel Kelly – Lecturer, School of Computing and Intelligent Systems, Ulster University.
+\nIf you have any further questions concerning the study please do not hesitate to ask Daniel Kelly (email d.kelly@ulster.ac.uk )
+
+\n\nCONSENT
+
+\n\nBy clicking "Accept" I aggree to the following statements:
+
+\n\nI confirm that I have read and understood the information leaflet on the above research study and received an explanation of the nature, purpose, duration, and foreseeable effects and risks of the study and what my involvement will be.
+
+\n\nI understand that data collected during the study will be stored in electronic format on a computer. I understand my identity will remain confidential and will not appear alongside any of this data.
+
+\n\nI have had time to consider whether to take part in this research study. My questions have been answered satisfactorily and I have received a copy of the Participant Information Leaflet.
+
+\n\nI understand that my participation is voluntary (my choice) and that I am free to withdraw at any time without my legal rights being affected.
+
+\n\nI will inform the research investigator immediately if I suffer any unexpected or unusual symptoms during the study.
+
+\n\nI agree to take part in the above research study.
+
+    </string>
+</resources>

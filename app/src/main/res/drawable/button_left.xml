@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:color="@color/colorPrimary"
+        android:drawable="@drawable/disabled_left" />
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/pressed_left" />
+    <item
+        android:state_focused="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/focused_left" />
+    <item
+        android:state_enabled="true"
+        android:color="@android:color/white"
+        android:drawable="@drawable/enabled_left" />
+</selector>

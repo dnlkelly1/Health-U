@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentHistory"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="0dp"
+    tools:context="com.csri.ami.health_u.ui.HistoryFragment">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutConf"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/spinner1"
+        style="?android:attr/progressBarStyleLarge"
+        android:elevation="30dp"
+        />
+
+    <TextView
+    android:id="@+id/emptyText1"
+        android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutConf"
+    android:text="@string/emptyTextString"
+    android:textSize="16dp"
+    android:layout_margin="5dp"
+    android:textStyle="bold"
+    android:layout_centerInParent="true"/>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3F2FD"
+        android:elevation="5dp"
+        android:layout_alignParentTop="true"
+
+        android:id="@+id/layoutConf">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:background="@drawable/button_left"
+            android:id="@+id/buttonHistroyDay"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_weight="0.5"
+            android:text="Daily"
+
+            android:layout_marginLeft="3dp"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+
+            android:enabled="false"
+            android:checked="true"
+            android:elevation="10dp"
+            android:textSize="20sp"
+
+            />
+
+        <Button
+            android:background="@drawable/button_right"
+            android:id="@+id/buttonHistroyWeek"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_weight="0.5"
+            android:elevation="10dp"
+            android:text="Weekly"
+
+
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+
+
+
+            android:checked="false"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <ViewSwitcher
+        android:id="@+id/viewswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="3dp"
+        android:layout_margin="3dp"
+        android:layout_below="@+id/layoutConf"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        >
+
+
+
+
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:divider="@android:color/transparent"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdgeLength="5dp"
+            android:dividerHeight="5.0sp"
+            >
+        </ListView>
+
+
+
+
+        <ListView
+            android:id="@+id/list_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:divider="@android:color/transparent"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdgeLength="5dp"
+            android:dividerHeight="5.0sp">
+        </ListView>
+
+
+
+
+    </ViewSwitcher>
+
+
+
+
+
+</RelativeLayout>

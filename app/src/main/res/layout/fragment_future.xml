@@ -1,0 +1,413 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.csri.ami.health_u.ui.FutureFragment">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/qbuttonlayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/infoRel"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:background="@color/colorPrimary"
+
+                >
+
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="195dp"
+                    android:background="@drawable/back2"
+                    android:tint="#730288D1"
+
+
+                    android:scaleType="center"
+                    android:id="@+id/imageback2"
+                    >
+
+
+
+
+                </ImageView>
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="195dp"
+
+                    android:background="#B30288D1"
+                    android:elevation="0dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/scoresLayout">
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+
+
+
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/healthshape"
+                            >
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginBottom="10dp"
+
+                                android:orientation="vertical"
+                                android:id="@+id/physhealth_layout">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:alpha="0.7"
+                                    android:src="@drawable/ic_favorite_border_white_48dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="--%"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="25sp"
+                                    android:layout_marginTop="-5dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Physical Health"
+
+                                    android:textColor="#D9FFFFFF"
+                                    android:textSize="15sp"
+                                    />
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentRight="true"
+
+                                >
+
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:alpha="0.7"
+                                    android:src="@drawable/ic_insert_emoticon_white_48dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+
+                                    android:text="--%"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:layout_marginTop="-5dp"
+                                    android:gravity="center"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Mental Health"
+                                    android:textColor="#D9FFFFFF"
+                                    android:textSize="15sp"
+                                    />
+
+
+
+
+
+                            </LinearLayout>
+
+
+
+                        </RelativeLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent"></View>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fefdfb"
+                android:orientation="vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:elevation="0.0dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/dividerColor"
+                    android:id="@+id/infoTextLayout">
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Your health measures are not yet available. This App is part of a scientific experiment to discover how we can link Smartphone sensor data to health measurements. By using this App, you are helping us move towards that goal.\nClick on the (i) button for more information on this project."
+                    android:textColor="#b3ffffff"
+                    android:textSize="10sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+
+
+
+
+                        android:id="@+id/infoText"
+                    />
+                </LinearLayout>
+
+
+                    <!--app:layout_anchor="@+id/infoTextLayout"-->
+                    <!--app:layout_anchorGravity="right"-->
+                    <!-- -->
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/info"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/math1"
+                android:scaleType="centerInside"
+                android:layout_centerHorizontal="true"
+                >
+
+            </ImageView>
+
+
+                <LinearLayout
+                android:id="@+id/statusLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:elevation="10dp"
+
+                    android:layout_centerHorizontal="true"
+                >
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                    android:id="@+id/expprogress"
+
+                    android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                />
+
+                <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/white"/>
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                    android:id="@+id/expprogress_you"
+                    android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:gravity="center"
+                    android:textStyle="bold"
+                />
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                    android:textColor="@android:color/white"
+                android:layout_margin="3dp"
+                android:id="@+id/youText"
+                android:textSize="24sp"
+
+
+                />
+                </LinearLayout>
+
+                <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                    android:textStyle="bold"
+                    android:id="@+id/expprogress_all"
+                    android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:gravity="center"
+                />
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/allUsersText"
+                android:text="-"
+                android:layout_margin="3dp"
+                android:textSize="24sp"
+                    android:textColor="@android:color/white"
+
+
+                />
+                </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/white"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_info_outline_black_48dp"
+        app:elevation="15.0dp"
+        app:fabSize="normal"
+        android:clickable="true"
+        android:onClick="fabClick"
+        android:layout_margin="10dp"
+        android:layout_above="@+id/qbuttonlayout"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:id="@+id/qbuttonlayout"
+        android:layout_margin="5dp"
+        >
+
+        <Button
+            android:background="@drawable/custom_button"
+            android:id="@+id/buttonQues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/takeQues"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:elevation="15dp"
+            android:clickable="true"
+            android:enabled="true"
+
+            />
+        <!--android:onClick="sendMessage"-->
+
+    </LinearLayout>
+
+</RelativeLayout>
