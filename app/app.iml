@@ -92,20 +92,20 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="design-23.0.1" level="project" />
-    <orderEntry type="library" exported="" name="appcompat-v7-23.0.1" level="project" />
     <orderEntry type="library" exported="" name="org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2" level="project" />
     <orderEntry type="library" exported="" name="bolts-android-1.2.0" level="project" />
+    <orderEntry type="library" exported="" name="jtransforms-2.3" level="project" />
+    <orderEntry type="library" exported="" name="libsvm" level="project" />
     <orderEntry type="library" exported="" name="facebook-android-sdk-4.6.0" level="project" />
     <orderEntry type="library" exported="" name="support-v4-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="guava-18.0" level="project" />
+    <orderEntry type="library" exported="" name="design-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="mpandroidchartlibrary-2-1-5" level="project" />
+    <orderEntry type="library" exported="" name="joda-time-2.8.2" level="project" />
+    <orderEntry type="library" exported="" name="jahmm-0.6.2" level="project" />
+    <orderEntry type="library" exported="" name="Jama-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-23.0.1" level="project" />
-    <orderEntry type="module" module-name="commons-math3-3.5" exported="" />
-    <orderEntry type="module" module-name="guava-18.0" exported="" />
-    <orderEntry type="module" module-name="joda-time-2.8.2" exported="" />
-    <orderEntry type="module" module-name="libsvm" exported="" />
-    <orderEntry type="module" module-name="jahmm-0.6.2" exported="" />
-    <orderEntry type="module" module-name="jtransforms-2.3" exported="" />
-    <orderEntry type="module" module-name="mpandroidchartlibrary-2-1-5" exported="" />
-    <orderEntry type="module" module-name="Jama-1.0.2" exported="" />
+    <orderEntry type="library" exported="" name="commons-math3-3.5" level="project" />
   </component>
 </module>

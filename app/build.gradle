@@ -32,14 +32,15 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.android.support:design:23.0.1'
-    compile project(':jahmm-0.6.2')
-    compile project(':Jama-1.0.2')
-    compile project(':jtransforms-2.3')
-    compile project(':libsvm')
-    compile project(':joda-time-2.8.2')
-    compile project(':commons-math3-3.5')
-    compile project(':guava-18.0')
-    compile project(':mpandroidchartlibrary-2-1-5')
+
     compile 'com.facebook.android:facebook-android-sdk:4.6.0'
     compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    compile files('libs/commons-math3-3.5/commons-math3-3.5.jar')
+    compile files('libs/jahmm-0.6.2/jahmm-0.6.2.jar')
+    compile files('libs/guava-18.0/guava-18.0.jar')
+    compile files('libs/Jama-1.0.2/Jama-1.0.2.jar')
+    compile files('libs/joda-time-2.8.2/joda-time-2.8.2.jar')
+    compile files('libs/jtransforms-2.3/jtransforms-2.3.jar')
+    compile files('libs/libsvm/libsvm.jar')
+    compile files('libs/mpandroidchartlibrary-2-1-5/mpandroidchartlibrary-2-1-5.jar')
 }
